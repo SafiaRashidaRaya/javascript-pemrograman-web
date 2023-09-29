@@ -1,3 +1,3 @@
 function show(){
-    alert("javascript");
+    document.querySelector("#me").innerHTML = "Javascript";
 }
