@@ -16,3 +16,15 @@ function tampil(){
     document.querySelector("#hasil").value= document.querySelector("#nama").value;
     document.querySelector("#para").innerText = document.querySelector("#nama").value;
 }
+
+// btn.onclick = tampil;
+
+// btn.onmouseover = function(){
+//     alert("javascript");
+// }
+
+// btn.addEventListener('mouseover', tampil);
+
+btn.addEventListener('mouseover', function(){
+    alert("event");
+});
