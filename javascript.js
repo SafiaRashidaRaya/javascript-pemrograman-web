@@ -25,6 +25,12 @@ function tampil(){
 
 // btn.addEventListener('mouseover', tampil);
 
-btn.addEventListener('mouseover', function(){
-    alert("event");
-});
+// btn.addEventListener('mouseover', function(){
+//     alert("event");
+// });
+
+btn.onclick = function(){
+    let daftar = document.querySelector("ul");
+
+    daftar.removeChild(daftar.children[0]);
+}
