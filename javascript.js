@@ -30,7 +30,14 @@ function tampil(){
 // });
 
 btn.onclick = function(){
-    let daftar = document.querySelector("ul");
+    // let daftar = document.querySelector("ul");
 
-    daftar.removeChild(daftar.children[0]);
+    // daftar.removeChild(daftar.children[0]);
+
+    const nama = document.querySelector("#nama");
+    const judul = document.querySelector("h1");
+
+    let tampil = "belajar";
+
+    judul.innerHTML = nama.value;
 }
