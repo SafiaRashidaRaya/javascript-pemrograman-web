@@ -13,8 +13,8 @@ function tampil(){
     // document.querySelectorAll("img")[m].style.visibility="visible";
 
     // alert(document.querySelector("#nama"));
-    document.querySelector("#hasil").value= document.querySelector("#nama").value;
-    document.querySelector("#para").innerText = document.querySelector("#nama").value;
+    // document.querySelector("#hasil").value= document.querySelector("#nama").value;
+    // document.querySelector("#para").innerText = document.querySelector("#nama").value;
 }
 
 // btn.onclick = tampil;
@@ -30,14 +30,29 @@ function tampil(){
 // });
 
 btn.onclick = function(){
+
+    let a = 6;
+    let b = 2;
+
+    // b = b + a;
+    // b= b -a;
+    // b= b*a;
+    // b= b/a;
+    // b= a%b;
+    b= b**a;
+
+    console.log(b);
     // let daftar = document.querySelector("ul");
 
     // daftar.removeChild(daftar.children[0]);
 
-    const nama = document.querySelector("#nama");
-    const judul = document.querySelector("h1");
+    // const nama = document.querySelector("#nama");
+    // const judul = document.querySelector("h1");
 
-    let tampil = "belajar";
+    // let tampil = "belajar";
 
-    judul.innerHTML = nama.value;
+    // judul.innerHTML = nama.value;
+    // let tampil = "javascript";
+
+    // judul.innerHTML = nama.value;
 }
