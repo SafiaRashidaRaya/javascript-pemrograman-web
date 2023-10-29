@@ -31,17 +31,25 @@ function tampil(){
 
 btn.onclick = function(){
 
-    let a = 6;
-    let b = 2;
+    const nama = document.querySelector("#nama");
 
-    // b = b + a;
-    // b= b -a;
-    // b= b*a;
-    // b= b/a;
-    // b= a%b;
-    b= b**a;
+    if(nama.value < 5){
+        alert(nama.value * 5);
+    }else{
+        alert(nama.value);
+    }
 
-    console.log(b);
+    // let a = 6;
+    // let b = 2;
+
+    // // b = b + a;
+    // // b= b -a;
+    // // b= b*a;
+    // // b= b/a;
+    // // b= a%b;
+    // b= b**a;
+
+    // console.log(b);
     // let daftar = document.querySelector("ul");
 
     // daftar.removeChild(daftar.children[0]);
